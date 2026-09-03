@@ -5,6 +5,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "English-learning Tutor for Hindi Speakers",
   description: "Understand English. Speak English. Think in English.",
+  manifest: "/manifest.webmanifest",
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
