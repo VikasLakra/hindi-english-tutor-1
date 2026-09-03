@@ -2,11 +2,11 @@
 # English-learning Tutor for Hindi Speakers
 
 **Platform:** Responsive web — Next.js, React, Tailwind. shadcn/ui and lucide are installed and available; the direction decides whether they fit or whether this surface needs its own vocabulary.
-**Task mode:** Operate (pass as `--mode operate` to any script)
+**Task mode:** Persuade (pass as `--mode persuade` to any script)
 
 ## What this is
 
-A beginner-friendly English tutor that teaches Hindi-speaking learners through guided translation, correction, vocabulary, quizzes, and conversation practice.
+A beginner-friendly English tutor that teaches Hindi-speaking learners through guided translation, correction, vocabulary, quizzes, conversation practice, and optional premium lessons.
 
 ## What it enables
 
@@ -18,11 +18,11 @@ Hindi-speaking beginners and early intermediate learners who want clear explanat
 
 ## What exists today
 
-Responsive theatre-cue learning workspace with overview dashboard, learning route, daily lesson card, progress rail, streak, and weekly activity. - Functional Translate & Learn, Correct My English, Vocabulary, Conversation, Quick Quiz, and Grammar stations. - Server-side Claude tutor action with modular prompts and a deterministic teaching fallback when the owner key is not connected. - Local browser progress for completed practice moments and streak continuity.
+Responsive theatre-cue learning workspace with overview dashboard, learning route, daily lesson card, progress rail, streak, and weekly activity. - Functional Translate & Learn, Correct My English, Vocabulary, Conversation, Quick Quiz, and Grammar stations. - Server-side Claude tutor action with modular prompts and a deterministic teaching fallback when the owner key is not connected. - Local browser progress for completed practice moments and streak continuity. - Premium monthly subscription with hosted checkout, verified success return, durable entitlements, lifecycle webhook, pricing page, and server-gated premium lesson.
 
 ## Brand commitments & durable constraints
 
-Keep the experience beginner-friendly, encouraging, and clear in natural Hindi. - Preserve the Theatre Dawn Cyclorama direction: night ground, cobalt horizon cues, rose transitions, and bright lesson states. - Never expose the Claude key in the browser.
+Keep the experience beginner-friendly, encouraging, and clear in natural Hindi. - Preserve the Theatre Dawn Cyclorama direction: night ground, cobalt horizon cues, rose transitions, and bright lesson states. - Never expose the Claude or payment secrets in the browser.
 
 - **The user is present and IS choosing the visual direction.** Offer six materially different grounded directions through the design-picker command and STOP; the answer arrives as your next input and the chosen direction is then pinned, exactly as if the user had named it. Do not build a direction before asking, do not narrow the six to a favourite, and do not ask about anything else in the same breath — this one decision is the whole card.
 - **Ask ONLY when the direction is genuinely open**: this project has no committed visual world yet, or the user asked to redesign the whole app. A later change inside a committed world inherits it — asking again there is an interruption, not a courtesy.
@@ -42,15 +42,15 @@ Keep the experience beginner-friendly, encouraging, and clear in natural Hindi. 
 
 ## Positioning
 
-A beginner-friendly English tutor that teaches Hindi-speaking learners through guided translation, correction, vocabulary, quizzes, and conversation practice.
+A beginner-friendly English tutor that teaches Hindi-speaking learners through guided translation, correction, vocabulary, quizzes, conversation practice, and optional premium lessons.
 
 ## Operating Context
 
-Responsive web, built unattended in one pass. Task mode: Operate.
+Responsive web, built unattended in one pass. Task mode: Persuade.
 
 ## Evidence on Hand
 
-Responsive theatre-cue learning workspace with overview dashboard, learning route, daily lesson card, progress rail, streak, and weekly activity. - Functional Translate & Learn, Correct My English, Vocabulary, Conversation, Quick Quiz, and Grammar stations. - Server-side Claude tutor action with modular prompts and a deterministic teaching fallback when the owner key is not connected. - Local browser progress for completed practice moments and streak continuity.
+Responsive theatre-cue learning workspace with overview dashboard, learning route, daily lesson card, progress rail, streak, and weekly activity. - Functional Translate & Learn, Correct My English, Vocabulary, Conversation, Quick Quiz, and Grammar stations. - Server-side Claude tutor action with modular prompts and a deterministic teaching fallback when the owner key is not connected. - Local browser progress for completed practice moments and streak continuity. - Premium monthly subscription with hosted checkout, verified success return, durable entitlements, lifecycle webhook, pricing page, and server-gated premium lesson.
 
 ## Product Principles
 
