@@ -1,22 +1,25 @@
-<!-- OWNER: Build (with the user) · READERS: every agent · READ THIS FIRST -->
-# {{PROJECT_NAME}}
+# English-learning Tutor for Hindi Speakers
 
-**One-liner:** {{what it is, in one sentence}}
+**One-liner:** A beginner-friendly English tutor that teaches Hindi-speaking learners through guided translation, correction, vocabulary, quizzes, and conversation practice.
 
 ## Goal
-{{the outcome the user actually wants}}
+Help Hindi-speaking learners understand English, speak English, and think in English through short, encouraging practice moments.
 
 ## Target users
-{{who it's for}}
+Hindi-speaking beginners and early intermediate learners who want clear explanations, useful examples, and confidence-building practice.
 
 ## Status
-- Stage: {{idea | building | live}}
-- Live URL: {{url or —}}
-- Repo: {{repo or —}}
+- Stage: building
+- Live URL: —
+- Repo: —
 
 ## What exists today
-<!-- Kept current by the Build agent after each build -->
-{{high-level list of built features}}
+- Responsive theatre-cue learning workspace with overview dashboard, learning route, daily lesson card, progress rail, streak, and weekly activity.
+- Functional Translate & Learn, Correct My English, Vocabulary, Conversation, Quick Quiz, and Grammar stations.
+- Server-side Claude tutor action with modular prompts and a deterministic teaching fallback when the owner key is not connected.
+- Local browser progress for completed practice moments and streak continuity.
 
 ## Constraints / must-nots
-{{anything every agent must respect — brand rules, no-gos, tech limits}}
+- Keep the experience beginner-friendly, encouraging, and clear in natural Hindi.
+- Preserve the Theatre Dawn Cyclorama direction: night ground, cobalt horizon cues, rose transitions, and bright lesson states.
+- Never expose the Claude key in the browser.

@@ -1,30 +1,27 @@
-<!-- OWNER: Design / Build · READERS: Build, Landing, SEO -->
 # Design System
 
-The **committed** visual direction. Build / Landing / Design MUST follow this so the
-product stays consistent. Change it deliberately, and commit the change.
-
-## Direction
-{{one-line aesthetic — e.g. "clean editorial, trust-blue, generous whitespace"}}
+The committed direction is **Theatre Dawn Cyclorama**: a learning workspace staged like a lighting cue sheet, moving learners from a dark starting point toward a bright, readable practice state.
 
 ## Palette
 | Token | Value |
 |-------|-------|
-| background | {{#fff}} |
-| surface | {{}} |
-| text / muted | {{}} |
-| border | {{}} |
-| primary | {{}} |
-| accent | {{}} |
-| success / warning / danger | {{}} |
+| background | soft ivory / first-light canvas |
+| surface | bright lesson white |
+| text / muted | ink navy / slate |
+| border | pale blue-gray hairline |
+| primary | cobalt horizon |
+| accent | rose transition cue |
+| success / warning / danger | cobalt / rose / warm red |
 
 ## Typography
-- Headings: {{font}}
-- Body: {{font}}
+- Headings: sturdy system sans with tight display tracking
+- Body: readable system sans
+- Labels: compact monospaced cue labels
 
 ## Tokens & primitives
-- Radius / shadow / spacing rhythm: {{}}
-- Shared components: {{Button, Card, Input, …}}
+- Squared stage-panel edges, hairline rules, small cue markers, restrained shadows.
+- Shared components: Button, Badge, Progress, Textarea, lucide-react icons.
+- Full-height shell with a fixed route rail, responsive mobile drawer, and two-column practice workspace.
 
 ## Voice & tone
-{{how the product speaks — e.g. "plain, confident, no hype"}}
+Plain, encouraging, concise, and patient. Explain difficult ideas in natural Hindi without shaming mistakes.
