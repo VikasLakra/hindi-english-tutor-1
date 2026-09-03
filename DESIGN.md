@@ -1,48 +1,89 @@
 ---
-name: "workspace"
-description: "Master Prompt for Claude — “English-learning Tutor for Hindi Speakers” You are an expert \\*\\*AI product engineer, UX designer, English-language educator, and full-stack developer\\*\\*. I want you to build a functional AI-powered web application called: # \\*\\*English-learning Tutor for Hindi Speakers\\*\\* ### Product Vision Create an intelligent English-learning tutor specifically designed for \\*\\*Hindi-speaking learners\\*\\*. The application should not behave like a simple Hindi-English translator. Its primary purpose is to \\*\\*teach English\\*\\*, explain mistakes clearly in Hindi, build vocabulary, improve grammar, develop conversational ability, and gradually increase the learner's confidence in English. The interface should be simple enough for a beginner who has limited English proficiency. --- ## 1. Core User Experience The home screen should clearly present: \\*\\*English-learning Tutor for Hindi Speakers\\*\\* Subtitle: &gt; \\*\\*Learn English naturally with an AI tutor that understands Hindi.\\*\\* Provide these main options: 1. \\*\\*Translate &amp; Learn\\*\\* 2. \\*\\*Correct My English\\*\\* 3. \\*\\*Learn Grammar\\*\\* 4. \\*\\*Build Vocabulary\\*\\* 5. \\*\\*Practice Sentences\\*\\* 6. \\*\\*Conversation Practice\\*\\* 7. \\*\\*Speaking Practice\\*\\* 8. \\*\\*Daily English Lesson\\*\\* 9. \\*\\*Quiz\\*\\* 10. \\*\\*My Progress\\*\\* --- # 2. Translate &amp; Learn The learner can enter a Hindi sentence. Example: &gt; मैं रोज़ सुबह जल्दी उठता हूँ। The AI should provide: \\*\\*English Translation:\\*\\* &gt; I wake up early every morning. \\*\\*Hindi Meaning:\\*\\* &gt; मैं हर सुबह जल्दी उठता हूँ। \\*\\*Pronunciation:\\*\\* &gt; Ai wake up early every morning. \\*\\*Word-by-word explanation:\\*\\* \\* मैं = I \\* रोज़/हर सुबह = every morning \\* जल्दी = early \\* उठता हूँ = wake up \\*\\*Grammar explanation:\\*\\* Explain briefly in simple Hindi why the English sentence is structured this way. Then provide: \\*\\*Similar sentences:\\*\\* 1. I wake up at 6 AM every morning. 2. I usually wake up early. 3. I wake up late on Sundays. --- # 3. Correct My English Allow users to enter an English sentence. Example: &gt; I am go to market yesterday. The AI should respond: ### ❌ Your sentence &gt; I am go to market yesterday. ### ✅ Correct sentence &gt; I went to the market yesterday. ### 🇮🇳 Hindi explanation &gt; “Yesterday” बताता है कि घटना past में हुई थी। इसलिए “go” का past form “went” इस्तेमाल होगा। यहाँ “am” की आवश्यकता नहीं है। ### Grammar concept \\*\\*Simple Past Tense\\*\\* ### More examples &gt; I went to school yesterday. &gt; She went to Delhi last week. Then generate \\*\\*3 short practice questions\\*\\* based on the same mistake. --- # 4. Grammar Tutor Create a structured grammar-learning system. Categories should include: \\* Nouns \\* Pronouns \\* Articles \\* Verbs \\* Adjectives \\* Adverbs \\* Prepositions \\* Conjunctions \\* Tenses \\* Subject-verb agreement \\* Active/passive voice \\* Direct/indirect speech \\* Modal verbs \\* Conditionals \\* Question formation \\* Common Hindi-to-English grammar mistakes For every grammar topic provide: 1. Simple explanation in Hindi 2. English examples 3. Hindi translations 4. Common mistakes made by Hindi speakers 5. Practice questions 6. Instant feedback 7. Difficulty progression Avoid unnecessarily complicated grammatical terminology. --- # 5. Vocabulary Builder Create vocabulary lessons based on the learner's level. Levels: ### Beginner Common everyday words. ### Elementary Basic conversational vocabulary. ### Intermediate Academic, professional and conversational vocabulary. ### Advanced Sophisticated vocabulary, idioms and contextual usage. For each word show: \\*\\*Word:\\*\\* Important \\*\\*Pronunciation:\\*\\* im-POR-tant \\*\\*Hindi meaning:\\*\\* महत्वपूर्ण \\*\\*Part of speech:\\*\\* Adjective \\*\\*Example:\\*\\* &gt; Education is important for everyone. \\*\\*Hindi:\\*\\* &gt; शिक्षा सभी के लिए महत्वपूर्ण है। Then provide: \\* Synonyms \\* Antonyms \\* Related words \\* 3 practice questions --- # 6. Conversation Practice Create an AI English-speaking partner. The AI should simulate realistic situations such as: \\* Introducing yourself \\* Talking to a friend \\* Shopping \\* At a restaurant \\* Travelling \\* College conversation \\* Job interview \\* Customer service \\* Doctor's appointment \\* Office conversation \\* Public speaking \\* Academic discussion The AI should communicate primarily in \\*\\*simple English\\*\\*. If the learner becomes confused, explain the difficult sentence in Hindi. Do not immediately translate everything. The goal is to gradually move the learner from: \\*\\*Hindi → Hindi + English → Simple English → Natural English\\*\\* --- # 7. Speaking Practice If browser/device microphone access is available, allow the learner to speak English. The application should: 1. Capture the learner's speech. 2. Convert speech to text. 3. Identify grammatical errors. 4. Identify vocabulary problems. 5. Provide pronunciation guidance where technically possible. 6. Give a simple score. 7. Suggest a better sentence. 8. Ask the learner to repeat it. Example: User says: &gt; “Yesterday I go market.” AI: \\*\\*You said:\\*\\* &gt; Yesterday I go market. \\*\\*Better English:\\*\\* &gt; Yesterday, I went to the market. \\*\\*Hindi explanation:\\*\\* &gt; “Yesterday” के साथ past tense इस्तेमाल होता है। \\*\\*Try again:\\*\\* &gt; Say: “Yesterday, I went to the market.” Do not claim to provide phonetic/accent analysis unless the technical implementation actually supports it. --- # 8. Daily English Lesson Create a personalized daily lesson lasting approximately \\*\\*10–15 minutes\\*\\*. Each lesson should contain: ### Part 1 — Vocabulary 5 new words. ### Part 2 — Grammar One grammar concept. ### Part 3 — Sentences 5 useful sentences. ### Part 4 — Conversation A short dialogue. ### Part 5 — Quiz 5 questions. ### Part 6 — Speaking One sentence for the learner to speak. At the end show: \\*\\*Daily Score: 8/10\\*\\* and: &gt; Tomorrow we will continue with... --- # 9. Quiz System Create quizzes dynamically. Question types: \\* Multiple choice \\* Fill in the blanks \\* Hindi → English \\* English → Hindi \\* Sentence correction \\* Vocabulary \\* Grammar \\* Conversation completion After every answer: \\* Show whether it is correct. \\* Explain why. \\* Explain the mistake in Hindi when appropriate. \\* Give another example. The difficulty should automatically adjust according to the learner's performance. --- # 10. Learning Levels Create these levels: \\*\\*Level 1 — Absolute Beginner\\*\\* \\*\\*Level 2 — Beginner\\*\\* \\*\\*Level 3 — Elementary\\*\\* \\*\\*Level 4 — Intermediate\\*\\* \\*\\*Level 5 — Upper Intermediate\\*\\* \\*\\*Level 6 — Advanced\\*\\* During onboarding, ask the learner a few questions to estimate their level. Do not make the learner take a long test. --- # 11. Personalized Learning Track: \\* Vocabulary learned \\* Grammar topics completed \\* Quiz scores \\* Common mistakes \\* Practice frequency \\* Conversation performance \\* Speaking practice \\* Current level \\* Weak areas \\* Strong areas Use these data to personalize future lessons. For example: If a learner repeatedly confuses: &gt; “has” and “have” the system should automatically provide additional exercises on that topic. --- # 12. Hindi Explanation Rules This is extremely important. The tutor should explain difficult concepts in \\*\\*clear, natural Hindi\\*\\*, not unnecessarily formal Hindi. For example: Instead of: &gt; “The auxiliary verb is employed to establish temporal reference...” say: &gt; “यहाँ ‘did’ इसलिए आया है क्योंकि हम past में हुई घटना के बारे में पूछ रहे हैं।” Use English terminology when useful, but explain it in Hindi. --- # 13. Hindi Speaker Error Detection The system should specifically recognize common errors made by Hindi-speaking learners. Examples: ❌ He go to school. ✅ He goes to school. ❌ I am having two brothers. ✅ I have two brothers. ❌ I did not went there. ✅ I did not go there. ❌ Discuss about the problem. ✅ Discuss the problem. ❌ I am knowing him. ✅ I know him. Build the system so that these patterns can be expanded over time. --- # 14. UI/UX Design Create a modern, clean and friendly interface. Requirements: \\* Responsive design \\* Mobile-friendly \\* Desktop-friendly \\* Large readable typography \\* Simple navigation \\* Beginner-friendly buttons \\* Minimal clutter \\* Light and dark mode if practical Use a professional educational design rather than a generic chatbot interface. The main dashboard should show: \\*\\*Good morning! 👋\\*\\* \\*\\*Your English Level: Beginner\\*\\* \\*\\*Today's Goal: 10 minutes\\*\\* Then display: \\* Daily Lesson \\* Practice \\* Vocabulary \\* Grammar \\* Conversation \\* Progress --- # 15. AI Tutor Personality The AI tutor should be: \\* Patient \\* Encouraging \\* Non-judgmental \\* Clear \\* Educational \\* Motivating \\* Concise Never embarrass the learner for making mistakes. Instead of: &gt; “Wrong.” prefer: &gt; “Almost! Here's the natural way to say it.” The AI should encourage learners to \\*\\*think in English gradually\\*\\*, rather than depending permanently on Hindi translation. --- # 16. Technology Build the application using a modern, maintainable architecture. Preferred stack: \\*\\*Frontend:\\*\\* React / Next.js \\*\\*Backend:\\*\\* Node.js or Python \\*\\*Database:\\*\\* PostgreSQL/Supabase \\*\\*AI:\\*\\* Claude API Use environment variables for API keys. Never expose API keys in frontend code. Create clean separation between: \\* UI \\* API \\* AI services \\* Authentication \\* Database \\* Learning logic --- # 17. AI Prompt Architecture Do not put the entire tutor logic into one enormous frontend prompt. Create modular system prompts for: \\* Translation tutor \\* Grammar tutor \\* Correction tutor \\* Vocabulary tutor \\* Conversation tutor \\* Quiz generator \\* Speaking tutor \\* Daily lesson generator Make these prompts reusable and easy to modify. --- # 18. Safety and Accuracy The application should not confidently invent grammar rules. When uncertain, explain the uncertainty. Distinguish between: \\* Grammatically correct English \\* Natural English \\* Formal English \\* Informal English \\* British English \\* American English When multiple forms are acceptable, explain the difference. --- # 19. MVP First Do NOT attempt to build every feature simultaneously. First create a functional MVP containing: ### Phase 1 1. Hindi → English translation 2. English correction 3. Hindi grammar explanations 4. Vocabulary 5. Simple quiz 6. Basic conversation tutor Make these features fully functional before adding advanced features. ### Phase 2 Add: \\* User accounts \\* Progress tracking \\* Personalized lessons \\* Speaking practice \\* Learning levels ### Phase 3 Add: \\* Voice conversation \\* Pronunciation analysis \\* Gamification \\* Streaks \\* Achievements \\* Subscription system \\* Mobile application/PWA --- # 20. Important Development Instruction Do not merely give me theoretical advice. \\*\\*Actually generate the application code.\\*\\* Start by creating the complete MVP. Before writing large amounts of code: 1. Define the architecture. 2. Define the folder structure. 3. Define the database schema if required. 4. Define the AI prompt architecture. 5. Explain the implementation briefly. 6. Then generate the code file by file. For every file, clearly show: \\*\\*File:\\*\\* \\`filename\\` Then provide the complete code. Ensure that all files work together. After generating the initial version, provide: ### Installation instructions ### Environment variables ### How to add the Claude API key ### How to run locally ### How to test the application ### How to deploy it ### Future development roadmap The final result should be a \\*\\*working Hindi-speaker English-learning AI tutor\\*\\*, not merely a chatbot mockup. The product name throughout the interface should be: # \\*\\*English-learning Tutor for Hindi Speakers\\*\\* Tagline: &gt; \\*\\*Understand English. Speak English. Think in English.\\*\\*"
+name: "English-learning Tutor for Hindi Speakers"
+description: "A beginner-friendly English tutor that teaches Hindi-speaking learners through guided translation, correction, vocabulary, quizzes, and conversation practice."
+colors:
+  background: "oklch(0.95 0.018 88)"
+  foreground: "oklch(0.18 0.025 255)"
+  card: "oklch(0.98 0.012 88)"
+  card-foreground: "oklch(0.18 0.025 255)"
+  popover: "oklch(0.98 0.012 88)"
+  popover-foreground: "oklch(0.18 0.025 255)"
+  primary: "oklch(0.52 0.19 265)"
+  primary-foreground: "oklch(0.98 0.012 88)"
+  secondary: "oklch(0.91 0.04 350)"
+  secondary-foreground: "oklch(0.23 0.05 350)"
+  muted: "oklch(0.9 0.018 88)"
+  muted-foreground: "oklch(0.45 0.035 255)"
+  accent: "oklch(0.64 0.14 351)"
+  accent-foreground: "oklch(0.99 0 0)"
+  destructive: "oklch(0.58 0.2 25)"
+  border: "oklch(0.82 0.025 255 / 45%)"
+  input: "oklch(0.82 0.025 255 / 60%)"
+  ring: "oklch(0.52 0.19 265 / 55%)"
+  sidebar-ring: "oklch(0.64 0.14 351)"
+  sidebar-border: "oklch(0.98 0.012 88 / 15%)"
+  sidebar-accent-foreground: "oklch(0.98 0.012 88)"
+  sidebar-accent: "oklch(0.26 0.045 255)"
+  sidebar-primary-foreground: "oklch(0.98 0.012 88)"
+  sidebar-primary: "oklch(0.52 0.19 265)"
 typography:
+  display:
+    fontFamily: "sturdy system sans with tight display tracking"
+  body:
+    fontFamily: "readable system sans"
   mono:
-    fontFamily: "ui-monospace, SFMono-Regular, \"SF Mono\", Menlo, Consolas, \"Liberation Mono\", monospace"
+    fontFamily: "\"SFMono-Regular\", Consolas, \"Liberation Mono\", monospace"
 rounded:
-  sm: "calc(var(--radius) * 0.6)"
-  md: "calc(var(--radius) * 0.8)"
-  lg: "0.625rem"
+  sm: "calc(var(--radius) * .6)"
+  md: "calc(var(--radius) * .8)"
+  lg: "0.4rem"
   xl: "calc(var(--radius) * 1.4)"
-  2xl: "calc(var(--radius) * 1.8)"
-  3xl: "calc(var(--radius) * 2.2)"
-  4xl: "calc(var(--radius) * 2.6)"
 ---
 
 <!-- Generated from .project/DESIGN_SYSTEM.md + app/globals.css by the engine. Tokens above are normative and mirror the CSS; edit the CSS and DESIGN_SYSTEM.md, not this file. -->
 
 ## Overview
 
-**No visual direction has been committed for workspace yet.** The project is still on the starter's placeholder palette — shadcn's default neutral, every colour zero-chroma — so it is deliberately NOT listed above as a token set to respect. Treat this project as greenfield: decide the world, then write the palette into `globals.css`, and this file will state it from the next turn onward.
+The committed visual direction for English-learning Tutor for Hindi Speakers. Tokens above are the normative source and mirror `globals.css`.
 
 ## Colors
 
 | Token | Value |
+| background | soft ivory / first-light canvas |
+| surface | bright lesson white |
+| text / muted | ink navy / slate |
+| border | pale blue-gray hairline |
+| primary | cobalt horizon |
+| accent | rose transition cue |
+| success / warning / danger | cobalt / rose / warm red |
+
+Declared in `globals.css` as `--color-*` and mirrored in the frontmatter. Use the token, never a raw hex.
 
 ## Typography
 
-- Headings:
-- Body:
+- Headings: sturdy system sans with tight display tracking
+- Body: readable system sans
+- Labels: compact monospaced cue labels
 
-- Mono: `ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace`
+- Display: `sturdy system sans with tight display tracking`
+- Body: `readable system sans`
+- Mono: `"SFMono-Regular", Consolas, "Liberation Mono", monospace`
 
 ## Layout
 
-- Radius / shadow / spacing rhythm:
-- Shared components:
+- Squared stage-panel edges, hairline rules, small cue markers, restrained shadows.
+- Shared components: Button, Badge, Progress, Textarea, lucide-react icons.
+- Full-height shell with a fixed route rail, responsive mobile drawer, and two-column practice workspace.
 
 ## Shapes
 
-Radii: `sm` calc(var(--radius) * 0.6), `md` calc(var(--radius) * 0.8), `lg` 0.625rem, `xl` calc(var(--radius) * 1.4), `2xl` calc(var(--radius) * 1.8), `3xl` calc(var(--radius) * 2.2), `4xl` calc(var(--radius) * 2.6)
+Radii: `sm` calc(var(--radius) * .6), `md` calc(var(--radius) * .8), `lg` 0.4rem, `xl` calc(var(--radius) * 1.4)
 
 ## Do's and Don'ts
 
+- Voice: Plain, encouraging, concise, and patient. Explain difficult ideas in natural Hindi without shaming mistakes.
+
 - Do load faces through Fontsource, not `next/font/google`.
-- Do write the direction's palette into `globals.css` as the token block; keep the token NAMES, replace the values.
+- Don't introduce a colour or radius that isn't a token above.
 - Don't use gradient text, or a purple/violet gradient as the brand signal.
 - Don't use bounce or elastic easing; real objects decelerate smoothly.
