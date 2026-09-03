@@ -22,5 +22,5 @@ export function SubscribeButton() {
     }
   };
 
-  return <div><Button className="primary-button" onClick={subscribe} disabled={loading}>{loading ? "Opening checkout…" : "Start Premium"} <ArrowUpRight size={16} /></Button>{error && <p className="mt-3 text-sm text-destructive">{error}</p>}</div>;
+  return <div><Button className="primary-button" onClick={subscribe} disabled={loading}>{loading ? "Opening checkout…" : "Start 7-day trial"} <ArrowUpRight size={16} /></Button>{error && <p className="mt-3 text-sm text-destructive">{error}</p>}</div>;
 }

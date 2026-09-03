@@ -17,7 +17,7 @@ export async function startSubscription() {
     cancel_url: `${origin}/pricing`,
     customer_email: user.email,
     metadata: { userId: user.id },
-    subscription_data: { metadata: { userId: user.id } },
+    subscription_data: { trial_period_days: 7, metadata: { userId: user.id } },
   }, stripeAccount);
   return session.url;
 }
