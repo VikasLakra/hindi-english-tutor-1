@@ -5,7 +5,7 @@ import { appOrigin } from "@/lib/app-origin";
 import { grantEntitlement } from "@/lib/entitlements";
 import { stripe, stripeAccount } from "@/lib/stripe";
 
-const premiumPriceId = "price_1UBb0dJc01dLhUgCKOZjJTi1";
+const premiumPriceId = "price_1UBb5VJc01dLhUgCagUYEpNt";
 
 export async function startSubscription() {
   const user = await requireUser();

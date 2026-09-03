@@ -1,6 +1,6 @@
 ---
 name: "English-learning Tutor for Hindi Speakers"
-description: "A beginner-friendly English tutor that teaches Hindi-speaking learners through guided translation, correction, vocabulary, quizzes, conversation practice, and optional premium lessons."
+description: "A beginner-friendly English tutor that teaches Hindi-speaking learners through guided translation, correction, vocabulary, quizzes, conversation practice, and a $1/month premium learning route."
 colors:
   background: "oklch(0.95 0.018 88)"
   foreground: "oklch(0.18 0.025 255)"
