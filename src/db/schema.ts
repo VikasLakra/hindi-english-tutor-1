@@ -118,3 +118,22 @@ export const userRelations = relations(user, ({ many }) => ({
 //   // on user_id, and without this each one is a full table scan.
 //   (t) => [index("note_user_idx").on(t.userId)],
 // );
+
+export const entitlement = pgTable(
+  "entitlement",
+  {
+    id: text("id").primaryKey().$defaultFn(() => crypto.randomUUID()),
+    userId: text("user_id").references(() => user.id, { onDelete: "cascade" }),
+    email: text("email"),
+    stripeCustomerId: text("stripe_customer_id"),
+    subscriptionId: text("subscription_id"),
+    plan: text("plan").notNull().default("premium"),
+    status: text("status").notNull().default("active"),
+    updatedAt: timestamp("updated_at").notNull().defaultNow(),
+  },
+  (t) => [
+    index("entitlement_user_idx").on(t.userId),
+    index("entitlement_sub_idx").on(t.subscriptionId),
+    index("entitlement_customer_idx").on(t.stripeCustomerId),
+  ],
+);
